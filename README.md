@@ -4,9 +4,18 @@
 仅用于学习与研究，请遵守当地法律法规。
 
 ## 使用
-```bash
-python SMSBoom.py
 
-##若缺少依赖
-````bash
+git clone https://github.com/MallocPointer/SMSBoom-Terminal
+
+cd SMSBoom-Terminal
+
+sudo apt install python3 python3-venv python3-pip
+
+python3 -m venv env
+
+source env/bin/activate   //Linux
+.\env\Scripts\activate   //Windows
+
 pip install requests colorama tqdm urllib3
+
+python SMSBoom.py
